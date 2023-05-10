@@ -70,3 +70,7 @@ function areaCirculo(radio){
 function areaTriangulo(base,altura){
     return (base*altura)/2
 }
+
+console.log(areaCuadrado(2))
+console.log(areaCirculo(2))
+console.log(areaTriangulo(2,2))
