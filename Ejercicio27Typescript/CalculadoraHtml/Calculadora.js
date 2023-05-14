@@ -1,7 +1,5 @@
 "use strict";
-//hacerlo con DOM 
-//1Leer numerso y actualizar lo que se meustra en display, cuando ingresen algo de la clase operator el num1 para y entra el num2 hatsa que ingresen algo de operator de neuvo
-//los nuemros se deben ir guardando hasta que presionen igual..
+//FUNCIONA PARA OPERACIONES BASICAS
 var operacionMatematica = "";
 const $numeros = document.querySelectorAll(".number");
 const $operadores = document.querySelectorAll(".operator");
@@ -16,12 +14,14 @@ $numeros.forEach(numerobtn => {
 });
 $clearbtn.addEventListener('click', () => {
     $display.textContent = "0";
+    operacionMatematica = "";
 });
 $operadores.forEach(operacion => {
     operacion.addEventListener('click', () => {
         let ultimoCaracter = operacionMatematica.slice(-1);
         if (!isNaN(parseInt(ultimoCaracter))) {
             operacionMatematica += operacion.textContent;
+            $display.textContent = operacionMatematica;
             console.log(operacionMatematica);
         }
     });

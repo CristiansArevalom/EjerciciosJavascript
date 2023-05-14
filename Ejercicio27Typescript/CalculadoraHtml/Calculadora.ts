@@ -17,13 +17,15 @@ const $equalsbtn=document.querySelector(".equals")
 
     $clearbtn.addEventListener('click',()=>{
         $display.textContent="0";
+        operacionMatematica=""
     })
 
     $operadores.forEach(operacion=>{
         operacion.addEventListener('click',()=>{
            let ultimoCaracter:string=operacionMatematica.slice(-1);
-           if(!isNaN(parseInt(ultimoCaracter))){
+           if(!isNaN(parseInt(ultimoCaracter))){ //valida si el ultimo es umero, para controlar ++ consecutivos
             operacionMatematica+=operacion.textContent
+            $display.textContent=operacionMatematica
             console.log(operacionMatematica)
            }    
         })
