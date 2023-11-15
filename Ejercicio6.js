@@ -35,3 +35,11 @@ Se desea determinar cuál es descuento dado una cantidad de decenas que se van a
 comprar. Imprima tambien cual es el valor de la compra si cada docena cuesta 60.000
 */
 
+let cantidadDocenas=20;
+let valorDocena=60000
+let valorTotal=0;
+if(cantidadDocenas>0 && cantidadDocenas<1){
+    valorTotal=(cantidadDocenas*valorDocena)*0,10;
+}else if(cantidadDocenas>=5 && cantidadDocenas<10){
+    valorTotal=(cantidadDocenas*valorDocena)*0,15;
+}
