@@ -1,0 +1,102 @@
+[{
+    "Nombre":"nombre1",
+    "Apellido":"apellido",
+    "Hobbies":["salir","no salir","estar saliendo"],
+    "Contacto":{
+        "correo":"correo1@gmail.com",
+        "telefono Celular":123456,
+        "telefono fijo":56457,
+        "direccion":"av siempre viva 123"
+    }
+},
+{
+    "Nombre":"nombre1",
+    "Marca":"marca",
+    "valor":{
+        "valor compra":2134,
+        "valor venta":45674
+    },
+    "tipo":["aseo","alimento","bebida"],
+    "inventario":15
+},
+{
+    "Nombre":"Arroz",
+    "Marca":"Diana",
+    "valor":{
+        "valor compra":2134,
+        "valor venta":45674
+    },
+    "tipo":"alimento",
+    "inventario":1
+},
+{
+    "Nombre":"Jabon",
+    "Marca":"Ariel",
+    "valor":{
+        "valor compra":2134,
+        "valor venta":45674
+    },
+    "tipo":"aseo",
+    "inventario":1
+},
+{
+    "Nombre":"Detergente",
+    "Marca":"Suavitel",
+    "valor":{
+        "valor compra":2134,
+        "valor venta":45674
+    },
+    "tipo":"aseo",
+    "inventario":1
+},
+{
+    "Nombre":"Gaseosa",
+    "Marca":" Coca-Cola",
+    "valor":{
+        "valor compra":2134,
+        "valor venta":45674
+    },
+    "tipo":"bebida",
+    "inventario":1
+},
+{
+    "Nombre":"Aceite",
+    "Marca":"Gourmet",
+    "valor":{
+        "valor compra":2134,
+        "valor venta":45674
+    },
+    "tipo":"alimento",
+    "inventario":1
+},
+{
+    "Nombre":"Galletas",
+    "Marca":"Festival",
+    "valor":{
+        "valor compra":2134,
+        "valor venta":45674
+    },
+    "tipo":"alimento",
+    "inventario":1
+},
+{
+    "Nombre":"Cerveza",
+    "Marca":"Poker",
+    "valor":{
+        "valor compra":2134,
+        "valor venta":45674
+    },
+    "tipo":"alimento",
+    "inventario":1
+},
+{
+    "Nombre":"Crema dental",
+    "Marca":"Colgate",
+    "valor":{
+        "valor compra":2134,
+        "valor venta":45674
+    },
+    "tipo":"aseo",
+    "inventario":1
+}
+]

@@ -25,6 +25,7 @@ if(num4%2==0){
 }else{
     console.log("el numero es impar")
 }
+
 /*
 6. Realice un código que resuelva el siguiente planeamiento:
 a. Una tienda comenzó una oferta para ventas al
@@ -35,6 +36,7 @@ Se desea determinar cuál es descuento dado una cantidad de decenas que se van a
 comprar. Imprima tambien cual es el valor de la compra si cada docena cuesta 60.000
 */
 
+<<<<<<< HEAD
 let cantidadDocenas=20;
 let valorDocena=60000
 let valorTotal=0;
@@ -43,3 +45,29 @@ if(cantidadDocenas>0 && cantidadDocenas<1){
 }else if(cantidadDocenas>=5 && cantidadDocenas<10){
     valorTotal=(cantidadDocenas*valorDocena)*0,15;
 }
+=======
+let valorDocena=60000;
+let cantidadDocenaComprada=20;
+let valorTotal=0;
+let descuento=0
+if(cantidadDocenaComprada>0&&cantidadDocenaComprada<=5){
+    valorTotal=(cantidadDocenaComprada*valorDocena)
+    descuento=0.1
+    valorDescuento=valorTotal-valorTotal*descuento;
+    console.log(`Valor total = ${valorTotal} , descuento es ${descuento}, valor descuento ${valorDescuento}`)
+}else if(cantidadDocenaComprada>5&& cantidadDocenaComprada<=10){
+    valorTotal=(cantidadDocenaComprada*valorDocena)
+    descuento=0.15
+    valorDescuento=valorTotal-valorTotal*descuento;
+    console.log(`Valor total = ${valorTotal} , descuento es ${descuento}, valor descuento ${valorDescuento}`)
+}else if(cantidadDocenaComprada>10){
+    valorTotal=(cantidadDocenaComprada*valorDocena)
+    descuento=0.2;
+    valorDescuento=valorTotal-valorTotal*descuento;
+    console.log(`Valor total = ${valorTotal} , descuento es ${descuento}, valor descuento ${valorDescuento}`)
+}else{
+    console.log("No se puede calcular")
+}
+
+
+>>>>>>> 628d6c0b36ac52168a259166af62bc636f42b2c7
